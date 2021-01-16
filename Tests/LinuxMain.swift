@@ -1,7 +1,7 @@
 import XCTest
 
-import scheduler_kitTests
+import SchedulerKitTests
 
 var tests = [XCTestCaseEntry]()
-tests += scheduler_kitTests.allTests()
+tests += SchedulerKitTests.allTests()
 XCTMain(tests)

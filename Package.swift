@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "scheduler-kit",
+    name: "SchedulerKit",
     platforms: [
         .macOS(.v10_15),
         .iOS(.v13),
@@ -12,17 +12,30 @@ let package = Package(
         .tvOS(.v13)
     ],
     products: [
-        .library(name: "scheduler-kit", targets: ["scheduler-kit"]),
+        .library(
+            name: "SchedulerKit",
+            type: .dynamic,
+            targets: ["SchedulerKit"]
+        ),
+        .library(
+            name: "SchedulerKitTestUtils",
+            type: .dynamic,
+            targets: ["SchedulerKitTestUtils"]
+        ),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "scheduler-kit",
+            name: "SchedulerKit",
             dependencies: []
         ),
+        .target(
+            name: "SchedulerKitTestUtils",
+            dependencies: ["SchedulerKit"]
+        ),
         .testTarget(
-            name: "scheduler-kitTests",
-            dependencies: ["scheduler-kit"]
+            name: "SchedulerKitTests",
+            dependencies: ["SchedulerKit", "SchedulerKitTestUtils"]
         ),
     ]
 )
