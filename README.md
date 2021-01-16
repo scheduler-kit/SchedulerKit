@@ -1,2 +1,2 @@
-# scheduler-kit
+# SchedulerKit
 Combine injectable Scheduler library 
