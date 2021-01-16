@@ -15,7 +15,7 @@ open class TestScheduler: Scheduler {
 
     public init() {}
 
-    /// For delayed actions with interval scheduler needs to be advanced before action execution
+    /// Scheduler needs to be advanced before execution for delayed actions with interval
     public var enableImmediateExecutionIfPossible = true
 
     public func advance(by interval:  DispatchQueue.SchedulerTimeType.Stride) {
