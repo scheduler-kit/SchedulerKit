@@ -7,44 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2960BF2525B3681E00AC9E4F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF2425B3681E00AC9E4F /* Tests_iOS.swift */; };
-		2960BF3025B3681E00AC9E4F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF2F25B3681E00AC9E4F /* Tests_macOS.swift */; };
 		2960BF3225B3681E00AC9E4F /* SchedulerKitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF0925B3681C00AC9E4F /* SchedulerKitExampleApp.swift */; };
-		2960BF3325B3681E00AC9E4F /* SchedulerKitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF0925B3681C00AC9E4F /* SchedulerKitExampleApp.swift */; };
-		2960BF3425B3681E00AC9E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF0A25B3681C00AC9E4F /* ContentView.swift */; };
 		2960BF3625B3681E00AC9E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2960BF0B25B3681E00AC9E4F /* Assets.xcassets */; };
-		2960BF3725B3681E00AC9E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2960BF0B25B3681E00AC9E4F /* Assets.xcassets */; };
-		2960BF4C25B3687100AC9E4F /* SchedulerKitTestUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF4B25B3687100AC9E4F /* SchedulerKitTestUtils */; };
-		2960BF4D25B3687100AC9E4F /* SchedulerKitTestUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF4B25B3687100AC9E4F /* SchedulerKitTestUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2960BF4F25B3687100AC9E4F /* SchedulerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF4E25B3687100AC9E4F /* SchedulerKit */; };
-		2960BF5025B3687100AC9E4F /* SchedulerKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF4E25B3687100AC9E4F /* SchedulerKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2960BF5B25B369F500AC9E4F /* TestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF5A25B369F500AC9E4F /* TestableViewModel.swift */; };
-		2960BF6425B36A5F00AC9E4F /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF6325B36A5F00AC9E4F /* ViewModelProtocol.swift */; };
-		2960BF7225B36F5C00AC9E4F /* TextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7125B36F5C00AC9E4F /* TextService.swift */; };
-		2960BF7825B370BB00AC9E4F /* NonTestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7725B370BB00AC9E4F /* NonTestableViewModel.swift */; };
-		2960BF7F25B3715C00AC9E4F /* NonTestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7725B370BB00AC9E4F /* NonTestableViewModel.swift */; };
-		2960BF8025B3715C00AC9E4F /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF6325B36A5F00AC9E4F /* ViewModelProtocol.swift */; };
-		2960BF8125B3715C00AC9E4F /* TestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF5A25B369F500AC9E4F /* TestableViewModel.swift */; };
-		2960BF8225B3715C00AC9E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF0A25B3681C00AC9E4F /* ContentView.swift */; };
-		2960BF8525B3716000AC9E4F /* TextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7125B36F5C00AC9E4F /* TextService.swift */; };
-		2960BF8E25B3719400AC9E4F /* SchedulerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF8D25B3719400AC9E4F /* SchedulerKit */; };
-		2960BF8F25B3719400AC9E4F /* SchedulerKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2960BF8D25B3719400AC9E4F /* SchedulerKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2960BFA225B375A500AC9E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF0A25B3681C00AC9E4F /* ContentView.swift */; };
+		2960BFA325B375A700AC9E4F /* NonTestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7725B370BB00AC9E4F /* NonTestableViewModel.swift */; };
+		2960BFA425B375A900AC9E4F /* TestableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF5A25B369F500AC9E4F /* TestableViewModel.swift */; };
+		2960BFA525B375AC00AC9E4F /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF6325B36A5F00AC9E4F /* ViewModelProtocol.swift */; };
+		2960BFA625B375AF00AC9E4F /* TextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BF7125B36F5C00AC9E4F /* TextService.swift */; };
+		2960BFA825B375C000AC9E4F /* SchedulerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2960BFA725B375C000AC9E4F /* SchedulerKit */; };
+		2960BFA925B375C000AC9E4F /* SchedulerKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2960BFA725B375C000AC9E4F /* SchedulerKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2960BFB125B376AA00AC9E4F /* TestableViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BFB025B376AA00AC9E4F /* TestableViewModelTests.swift */; };
+		2960BFBB25B376DF00AC9E4F /* SchedulerKitTestUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 2960BFBA25B376DF00AC9E4F /* SchedulerKitTestUtils */; };
+		2960BFBD25B376DF00AC9E4F /* SchedulerKitTestUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2960BFBA25B376DF00AC9E4F /* SchedulerKitTestUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2960BFC025B3776500AC9E4F /* TextServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BFBF25B3776500AC9E4F /* TextServiceMock.swift */; };
+		2960BFC225B3779A00AC9E4F /* NonTestableViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960BFC125B3779A00AC9E4F /* NonTestableViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2960BF2125B3681E00AC9E4F /* PBXContainerItemProxy */ = {
+		2960BFB325B376AA00AC9E4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2960BF0425B3681C00AC9E4F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2960BF0F25B3681E00AC9E4F;
-			remoteInfo = "SchedulerKitExample (iOS)";
-		};
-		2960BF2C25B3681E00AC9E4F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2960BF0425B3681C00AC9E4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2960BF1725B3681E00AC9E4F;
-			remoteInfo = "SchedulerKitExample (macOS)";
+			remoteInfo = SchedulerKitExample;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,29 +40,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2960BF5025B3687100AC9E4F /* SchedulerKit in Embed Frameworks */,
+				2960BFA925B375C000AC9E4F /* SchedulerKit in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2960BF5225B3687200AC9E4F /* Embed Frameworks */ = {
+		2960BFBC25B376DF00AC9E4F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2960BF4D25B3687100AC9E4F /* SchedulerKitTestUtils in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF9025B3719400AC9E4F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2960BF8F25B3719400AC9E4F /* SchedulerKit in Embed Frameworks */,
+				2960BFBD25B376DF00AC9E4F /* SchedulerKitTestUtils in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,19 +64,15 @@
 		2960BF0B25B3681E00AC9E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2960BF1025B3681E00AC9E4F /* SchedulerKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedulerKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2960BF1325B3681E00AC9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2960BF1825B3681E00AC9E4F /* SchedulerKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedulerKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2960BF1A25B3681E00AC9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2960BF1B25B3681E00AC9E4F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		2960BF2025B3681E00AC9E4F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2960BF2425B3681E00AC9E4F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		2960BF2625B3681E00AC9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2960BF2B25B3681E00AC9E4F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2960BF2F25B3681E00AC9E4F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		2960BF3125B3681E00AC9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2960BF5A25B369F500AC9E4F /* TestableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableViewModel.swift; sourceTree = "<group>"; };
 		2960BF6325B36A5F00AC9E4F /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		2960BF7125B36F5C00AC9E4F /* TextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextService.swift; sourceTree = "<group>"; };
 		2960BF7725B370BB00AC9E4F /* NonTestableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonTestableViewModel.swift; sourceTree = "<group>"; };
+		2960BFAE25B376AA00AC9E4F /* SchedulerKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2960BFB025B376AA00AC9E4F /* TestableViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableViewModelTests.swift; sourceTree = "<group>"; };
+		2960BFB225B376AA00AC9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2960BFBF25B3776500AC9E4F /* TextServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextServiceMock.swift; sourceTree = "<group>"; };
+		2960BFC125B3779A00AC9E4F /* NonTestableViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonTestableViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,30 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2960BF4F25B3687100AC9E4F /* SchedulerKit in Frameworks */,
+				2960BFA825B375C000AC9E4F /* SchedulerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2960BF1525B3681E00AC9E4F /* Frameworks */ = {
+		2960BFAB25B376AA00AC9E4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2960BF8E25B3719400AC9E4F /* SchedulerKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF1D25B3681E00AC9E4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2960BF4C25B3687100AC9E4F /* SchedulerKitTestUtils in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF2825B3681E00AC9E4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2960BFBB25B376DF00AC9E4F /* SchedulerKitTestUtils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,34 +98,18 @@
 		2960BF0325B3681C00AC9E4F = {
 			isa = PBXGroup;
 			children = (
-				2960BF0825B3681C00AC9E4F /* Shared */,
 				2960BF1225B3681E00AC9E4F /* iOS */,
-				2960BF1925B3681E00AC9E4F /* macOS */,
-				2960BF2325B3681E00AC9E4F /* Tests iOS */,
-				2960BF2E25B3681E00AC9E4F /* Tests macOS */,
+				2960BFAF25B376AA00AC9E4F /* SchedulerKitExampleTests */,
 				2960BF1125B3681E00AC9E4F /* Products */,
 				2960BF8C25B3719400AC9E4F /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		2960BF0825B3681C00AC9E4F /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				2960BF0925B3681C00AC9E4F /* SchedulerKitExampleApp.swift */,
-				2960BF0B25B3681E00AC9E4F /* Assets.xcassets */,
-				2960BF6025B36A0500AC9E4F /* Content */,
-				2960BF5925B368B500AC9E4F /* Helpers */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		2960BF1125B3681E00AC9E4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				2960BF1025B3681E00AC9E4F /* SchedulerKitExample.app */,
-				2960BF1825B3681E00AC9E4F /* SchedulerKitExample.app */,
-				2960BF2025B3681E00AC9E4F /* Tests iOS.xctest */,
-				2960BF2B25B3681E00AC9E4F /* Tests macOS.xctest */,
+				2960BFAE25B376AA00AC9E4F /* SchedulerKitExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,35 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				2960BF1325B3681E00AC9E4F /* Info.plist */,
+				2960BF0925B3681C00AC9E4F /* SchedulerKitExampleApp.swift */,
+				2960BF0B25B3681E00AC9E4F /* Assets.xcassets */,
+				2960BF6025B36A0500AC9E4F /* Content */,
+				2960BF5925B368B500AC9E4F /* Helpers */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		2960BF1925B3681E00AC9E4F /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				2960BF1A25B3681E00AC9E4F /* Info.plist */,
-				2960BF1B25B3681E00AC9E4F /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		2960BF2325B3681E00AC9E4F /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2960BF2425B3681E00AC9E4F /* Tests_iOS.swift */,
-				2960BF2625B3681E00AC9E4F /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		2960BF2E25B3681E00AC9E4F /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				2960BF2F25B3681E00AC9E4F /* Tests_macOS.swift */,
-				2960BF3125B3681E00AC9E4F /* Info.plist */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 		2960BF5925B368B500AC9E4F /* Helpers */ = {
@@ -236,12 +152,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2960BFAF25B376AA00AC9E4F /* SchedulerKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2960BFB225B376AA00AC9E4F /* Info.plist */,
+				2960BFC125B3779A00AC9E4F /* NonTestableViewModelTests.swift */,
+				2960BFB025B376AA00AC9E4F /* TestableViewModelTests.swift */,
+				2960BFBE25B3775A00AC9E4F /* Mocks */,
+			);
+			path = SchedulerKitExampleTests;
+			sourceTree = "<group>";
+		};
+		2960BFBE25B3775A00AC9E4F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2960BFBF25B3776500AC9E4F /* TextServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2960BF0F25B3681E00AC9E4F /* SchedulerKitExample (iOS) */ = {
+		2960BF0F25B3681E00AC9E4F /* SchedulerKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2960BF3A25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample (iOS)" */;
+			buildConfigurationList = 2960BF3A25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample" */;
 			buildPhases = (
 				2960BF0C25B3681E00AC9E4F /* Sources */,
 				2960BF0D25B3681E00AC9E4F /* Frameworks */,
@@ -252,74 +187,35 @@
 			);
 			dependencies = (
 			);
-			name = "SchedulerKitExample (iOS)";
+			name = SchedulerKitExample;
 			packageProductDependencies = (
-				2960BF4E25B3687100AC9E4F /* SchedulerKit */,
+				2960BFA725B375C000AC9E4F /* SchedulerKit */,
 			);
 			productName = "SchedulerKitExample (iOS)";
 			productReference = 2960BF1025B3681E00AC9E4F /* SchedulerKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2960BF1725B3681E00AC9E4F /* SchedulerKitExample (macOS) */ = {
+		2960BFAD25B376AA00AC9E4F /* SchedulerKitExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2960BF3D25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample (macOS)" */;
+			buildConfigurationList = 2960BFB525B376AA00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExampleTests" */;
 			buildPhases = (
-				2960BF1425B3681E00AC9E4F /* Sources */,
-				2960BF1525B3681E00AC9E4F /* Frameworks */,
-				2960BF1625B3681E00AC9E4F /* Resources */,
-				2960BF9025B3719400AC9E4F /* Embed Frameworks */,
+				2960BFAA25B376AA00AC9E4F /* Sources */,
+				2960BFAB25B376AA00AC9E4F /* Frameworks */,
+				2960BFAC25B376AA00AC9E4F /* Resources */,
+				2960BFBC25B376DF00AC9E4F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2960BFB425B376AA00AC9E4F /* PBXTargetDependency */,
 			);
-			name = "SchedulerKitExample (macOS)";
+			name = SchedulerKitExampleTests;
 			packageProductDependencies = (
-				2960BF8D25B3719400AC9E4F /* SchedulerKit */,
+				2960BFBA25B376DF00AC9E4F /* SchedulerKitTestUtils */,
 			);
-			productName = "SchedulerKitExample (macOS)";
-			productReference = 2960BF1825B3681E00AC9E4F /* SchedulerKitExample.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2960BF1F25B3681E00AC9E4F /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2960BF4025B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				2960BF1C25B3681E00AC9E4F /* Sources */,
-				2960BF1D25B3681E00AC9E4F /* Frameworks */,
-				2960BF1E25B3681E00AC9E4F /* Resources */,
-				2960BF5225B3687200AC9E4F /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2960BF2225B3681E00AC9E4F /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			packageProductDependencies = (
-				2960BF4B25B3687100AC9E4F /* SchedulerKitTestUtils */,
-			);
-			productName = "Tests iOS";
-			productReference = 2960BF2025B3681E00AC9E4F /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		2960BF2A25B3681E00AC9E4F /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2960BF4325B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				2960BF2725B3681E00AC9E4F /* Sources */,
-				2960BF2825B3681E00AC9E4F /* Frameworks */,
-				2960BF2925B3681E00AC9E4F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2960BF2D25B3681E00AC9E4F /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 2960BF2B25B3681E00AC9E4F /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = SchedulerKitExampleTests;
+			productReference = 2960BFAE25B376AA00AC9E4F /* SchedulerKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -333,16 +229,9 @@
 					2960BF0F25B3681E00AC9E4F = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					2960BF1725B3681E00AC9E4F = {
-						CreatedOnToolsVersion = 12.3;
-					};
-					2960BF1F25B3681E00AC9E4F = {
+					2960BFAD25B376AA00AC9E4F = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 2960BF0F25B3681E00AC9E4F;
-					};
-					2960BF2A25B3681E00AC9E4F = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 2960BF1725B3681E00AC9E4F;
 					};
 				};
 			};
@@ -362,10 +251,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2960BF0F25B3681E00AC9E4F /* SchedulerKitExample (iOS) */,
-				2960BF1725B3681E00AC9E4F /* SchedulerKitExample (macOS) */,
-				2960BF1F25B3681E00AC9E4F /* Tests iOS */,
-				2960BF2A25B3681E00AC9E4F /* Tests macOS */,
+				2960BF0F25B3681E00AC9E4F /* SchedulerKitExample */,
+				2960BFAD25B376AA00AC9E4F /* SchedulerKitExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,22 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2960BF1625B3681E00AC9E4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2960BF3725B3681E00AC9E4F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF1E25B3681E00AC9E4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF2925B3681E00AC9E4F /* Resources */ = {
+		2960BFAC25B376AA00AC9E4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,56 +280,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2960BF6425B36A5F00AC9E4F /* ViewModelProtocol.swift in Sources */,
-				2960BF5B25B369F500AC9E4F /* TestableViewModel.swift in Sources */,
-				2960BF3425B3681E00AC9E4F /* ContentView.swift in Sources */,
-				2960BF7225B36F5C00AC9E4F /* TextService.swift in Sources */,
-				2960BF7825B370BB00AC9E4F /* NonTestableViewModel.swift in Sources */,
+				2960BFA425B375A900AC9E4F /* TestableViewModel.swift in Sources */,
+				2960BFA225B375A500AC9E4F /* ContentView.swift in Sources */,
+				2960BFA525B375AC00AC9E4F /* ViewModelProtocol.swift in Sources */,
+				2960BFA325B375A700AC9E4F /* NonTestableViewModel.swift in Sources */,
+				2960BFA625B375AF00AC9E4F /* TextService.swift in Sources */,
 				2960BF3225B3681E00AC9E4F /* SchedulerKitExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2960BF1425B3681E00AC9E4F /* Sources */ = {
+		2960BFAA25B376AA00AC9E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2960BF7F25B3715C00AC9E4F /* NonTestableViewModel.swift in Sources */,
-				2960BF8225B3715C00AC9E4F /* ContentView.swift in Sources */,
-				2960BF3325B3681E00AC9E4F /* SchedulerKitExampleApp.swift in Sources */,
-				2960BF8125B3715C00AC9E4F /* TestableViewModel.swift in Sources */,
-				2960BF8525B3716000AC9E4F /* TextService.swift in Sources */,
-				2960BF8025B3715C00AC9E4F /* ViewModelProtocol.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF1C25B3681E00AC9E4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2960BF2525B3681E00AC9E4F /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2960BF2725B3681E00AC9E4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2960BF3025B3681E00AC9E4F /* Tests_macOS.swift in Sources */,
+				2960BFC025B3776500AC9E4F /* TextServiceMock.swift in Sources */,
+				2960BFC225B3779A00AC9E4F /* NonTestableViewModelTests.swift in Sources */,
+				2960BFB125B376AA00AC9E4F /* TestableViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2960BF2225B3681E00AC9E4F /* PBXTargetDependency */ = {
+		2960BFB425B376AA00AC9E4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2960BF0F25B3681E00AC9E4F /* SchedulerKitExample (iOS) */;
-			targetProxy = 2960BF2125B3681E00AC9E4F /* PBXContainerItemProxy */;
-		};
-		2960BF2D25B3681E00AC9E4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2960BF1725B3681E00AC9E4F /* SchedulerKitExample (macOS) */;
-			targetProxy = 2960BF2C25B3681E00AC9E4F /* PBXContainerItemProxy */;
+			target = 2960BF0F25B3681E00AC9E4F /* SchedulerKitExample */;
+			targetProxy = 2960BFB325B376AA00AC9E4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -622,144 +470,48 @@
 			};
 			name = Release;
 		};
-		2960BF3E25B3681E00AC9E4F /* Debug */ = {
+		2960BFB625B376AA00AC9E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gradchenko.SchedulerKitExample;
-				PRODUCT_NAME = SchedulerKitExample;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		2960BF3F25B3681E00AC9E4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gradchenko.SchedulerKitExample;
-				PRODUCT_NAME = SchedulerKitExample;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		2960BF4125B3681E00AC9E4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = SchedulerKitExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gradchenko.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradchenko.SchedulerKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SchedulerKitExample (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchedulerKitExample.app/SchedulerKitExample";
 			};
 			name = Debug;
 		};
-		2960BF4225B3681E00AC9E4F /* Release */ = {
+		2960BFB725B376AA00AC9E4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = SchedulerKitExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gradchenko.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradchenko.SchedulerKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SchedulerKitExample (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchedulerKitExample.app/SchedulerKitExample";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2960BF4425B3681E00AC9E4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gradchenko.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SchedulerKitExample (macOS)";
-			};
-			name = Debug;
-		};
-		2960BF4525B3681E00AC9E4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HK7UN2Y7PY;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gradchenko.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SchedulerKitExample (macOS)";
 			};
 			name = Release;
 		};
@@ -775,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2960BF3A25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample (iOS)" */ = {
+		2960BF3A25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2960BF3B25B3681E00AC9E4F /* Debug */,
@@ -784,29 +536,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2960BF3D25B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExample (macOS)" */ = {
+		2960BFB525B376AA00AC9E4F /* Build configuration list for PBXNativeTarget "SchedulerKitExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2960BF3E25B3681E00AC9E4F /* Debug */,
-				2960BF3F25B3681E00AC9E4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2960BF4025B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2960BF4125B3681E00AC9E4F /* Debug */,
-				2960BF4225B3681E00AC9E4F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2960BF4325B3681E00AC9E4F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2960BF4425B3681E00AC9E4F /* Debug */,
-				2960BF4525B3681E00AC9E4F /* Release */,
+				2960BFB625B376AA00AC9E4F /* Debug */,
+				2960BFB725B376AA00AC9E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -825,20 +559,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2960BF4B25B3687100AC9E4F /* SchedulerKitTestUtils */ = {
+		2960BFA725B375C000AC9E4F /* SchedulerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2960BF4A25B3687100AC9E4F /* XCRemoteSwiftPackageReference "SchedulerKit" */;
+			productName = SchedulerKit;
+		};
+		2960BFBA25B376DF00AC9E4F /* SchedulerKitTestUtils */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2960BF4A25B3687100AC9E4F /* XCRemoteSwiftPackageReference "SchedulerKit" */;
 			productName = SchedulerKitTestUtils;
-		};
-		2960BF4E25B3687100AC9E4F /* SchedulerKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2960BF4A25B3687100AC9E4F /* XCRemoteSwiftPackageReference "SchedulerKit" */;
-			productName = SchedulerKit;
-		};
-		2960BF8D25B3719400AC9E4F /* SchedulerKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2960BF4A25B3687100AC9E4F /* XCRemoteSwiftPackageReference "SchedulerKit" */;
-			productName = SchedulerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
