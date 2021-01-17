@@ -28,9 +28,9 @@ open class TestScheduler: Scheduler {
     public var _minimumTolerance: DispatchQueue.SchedulerTimeType.Stride = .zero
     public var minimumTolerance: DispatchQueue.SchedulerTimeType.Stride { _minimumTolerance }
 
-    public var immediateAction: [ImmediateAction] = []
+    public var immediateActions: [ImmediateAction] = []
     public func schedule(options: DispatchQueue.SchedulerOptions?, _ action: @escaping () -> Void) {
-        immediateAction.append(
+        immediateActions.append(
             ImmediateAction(options: options, action: action)
         )
 
